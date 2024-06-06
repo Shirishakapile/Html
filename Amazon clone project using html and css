@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fproject.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-log border">
+                <div class="logo"> </div>
+            </div>
+
+            <div class="nav-address">
+                <p class="a1">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <p class="a2">India</p></div>
+            </div>
+            <div class="nav-search">
+                <select class="search_select">
+                    <option >All</option>
+                </select>
+                <input placeholder="Amzon search" class="seach_input">
+                <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+        <div class="nav-signin z1">
+            <p><span>Hello,Sign in</span></p> 
+            <p class="nav-sec">Accounts & Lists</p>
+        </div>
+        <div class="nav-return z1">
+            <p><span>Returns</span></p>
+            <p class="nav-sec">& Orders</p>
+        </div>
+        <div class="nav-cart z1">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i>Cart
+        </div>
+        </div>
+        <div class="panel">
+            <div class="panel-all">
+            <i class="fa-solid fa-bars"></i>All
+        </div>
+        <div class="panel-ops z">
+            <p>Today's Deals</p>
+            <p>Custemer Service</p>
+            <p>Registry</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+        </div>
+        <div class="panel-deals z">
+            Shop deals in eletronics
+        </div>
+        </div>
+    </header>
+
+
+    <div class="hero-section">
+        <div class="hero-message">
+            <p>You are on Amazon.com You can also Shop on Milliance od product with fast local delivery.<a href="#">Click here to go Amazon.in</a></p>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box1 y1">
+            <h2>
+                Health & Plants
+            </h2>
+            <div class="b1-img" style="background-image:url('box1.jpg'); height:250px; background-size: cover;"></div>
+                <p>
+                    See more
+                </p>
+            
+        </div>
+        <div class="box2 y1">
+            <h2>
+                Home Applications
+            </h2>
+            <div class="img2">
+            <div style="background-image: url('r1.jpg'); height:110px; width: 150px; background-size: cover;"></div>
+            <div style="background-image: url('r2.jpg'); height:110px; width: 150px; background-size: cover;"></div>
+        </div>
+        <div class="r1">
+            <div style="background-image: url('r3.jpg'); height:110px; width: 150px;  background-size: cover;"></div>
+            <div style="background-image: url('r4.jpg'); height:110px; width: 150px; background-size: cover;"></div>
+        </div>
+        <p>See more</p>
+        </div>
+        <div class="box3 y1">
+            <h2>
+                Toys for Childrens
+            </h2>
+            <div class="img3" style="background-image: url('t1.jpg'); height:250px; background-size: cover;"></div>
+            <p>
+                See more
+            </p>
+        </div>
+        
+        <div class="box4 y1">
+            <h2>Fashion Jewellary</h2>
+            <div style="background-image: url('j1.jpg'); height:250px; background-size: cover;"></div>
+            <p>See More</p>
+        </div>
+    </div>
+    <footer>
+        <div>
+        <div class="bar">
+            Back TO TOP
+        </div>
+        <div class="last">
+           
+            <div class="a2 x1">
+                <ul>
+                    <a> Amazon Science</a>
+                    <a>Get to Know Us</a>
+                    <a>Careers</a>
+                    <a>Blog</a>
+                    <a> About Amazon</a>
+                    <a> Investor Relations</a>
+                    <a>Amazon Devices</a>
+                </ul>
+                </div>
+                <div class="a2 x1">
+                    <ul>
+                        <a> Amazon Science</a>
+                        <a>Get to Know Us</a>
+                        <a>Careers</a>
+                        <a>Blog</a>
+                        <a> About Amazon</a>
+                        <a> Investor Relations</a>
+                        <a>Amazon Devices</a>
+                    </ul>
+                    </div>
+                    <div class="a3 x1">
+                        <ul>
+                            <a>Get to Know Us</a>
+                            <a> Amazon Science</a>
+                            <a>Careers</a>
+                            <a>Blog</a>
+                            <a> About Amazon</a>
+                            <a> Investor Relations</a>
+                            <a>Amazon Devices</a>
+                        </ul>
+                        </div>
+                        <div class="a4 x1">
+                            <ul>
+                                <a> Amazon Science</a>
+                                <a>Get to Know Us</a>
+                                <a>Careers</a>
+                                <a>Blog</a>
+                                <a> About Amazon</a>
+                                <a> Investor Relations</a>
+                                <a>Amazon Devices</a>
+                            </ul>
+                            </div>
+                            
+</div>
+<hr style="border: 1px solid white;">
+<div class="ll-part">
+    <div class="l-part"></div>
+</div>
+</div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo
+{
+    background-image: url("logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.logo:hover{
+    border: 2px solid white;
+}
+.a1{
+    color:#cccccc;
+    
+    margin-left: 15px;
+    font-size: 0.85rem;
+}
+.a2{
+    font-size:1rem;
+    margin: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-address:hover
+{
+    border: 2px solid white;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width:620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search_select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius:4px ;
+    border:none;
+}
+.seach_input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(255,174,0);
+    border-top-right-radius: 4px;
+    border-bottom-left-radius:4px ;
+    color:black
+}
+span
+{
+    font-size: 0.75rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.z1:hover{
+    border: 2px solid white;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.panel{
+    height: 40px;
+     background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: white; 
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin: 15px;
+}
+.panel-ops
+{
+    width: 70%;
+    font-size: 0.885rem;
+}
+.panel-deals{
+    font-size: 0.95rem;
+    font-weight: 700px;
+}
+
+.hero-section{
+    background-image: url("am2.jpg");
+    height: 400px;
+    /* background-size: cover; */
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.hero-message a{
+    color: blue;
+}
+.y1{
+    height: 300px;
+    width: 24%;
+    background-color: #cccccc;
+    border: 2px solid black ;
+}
+.box{
+    display: flex;
+    background-color: #e2e7e6;
+    justify-content: space-evenly;
+    padding: 20px 0px 15px;
+}
+.img2{
+    display: flex;
+    padding: 5px;
+}
+.r1{
+    display: flex;
+    padding: 5px;
+    padding-left: 5px;
+}
+.last
+{
+    background-color: black;
+    color:white;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+
+}
+.bar{
+    background-color: rgb(107, 105, 105);
+    color:white;
+    height: 50px;
+    text-align: center;
+    margin-top:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul a{
+    display:flex;
+     margin-top: 10px; 
+    justify-content: space-between;
+    /* border-top: 2px solid white; */
+
+}
+.l-part{
+    background-image: url("logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    
+}
+.ll-part{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
